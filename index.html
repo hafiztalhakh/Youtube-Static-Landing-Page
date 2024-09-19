@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <style>
+      .video-preview {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+      }
+      .video-info-grid {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+      }
+      .channel-avatar,
+      .video-info {
+        background-color: antiquewhite;
+      }
+      .profile-picture {
+        width: 36px;
+        border-radius: 50px;
+      }
+    </style>
+    <!-- CSS -->
+    <title>CSS Grid</title>
+  </head>
+  <body>
+    <section>
+      <!-- Search field -->
+      <input type="text" class="search-bar" placeholder="Search" />
+      <!-- Search field -->
+
+      <!-- Videos -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img src="" alt="" />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-avatar">
+            <img class="profile-picture" src="" alt="" />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Video Title</p>
+            <p class="video-author">TalhaKhalid</p>
+            <p class="video-stats">3.4M view &#183; 6 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- Videos -->
+    </section>
+  </body>
+</html>
