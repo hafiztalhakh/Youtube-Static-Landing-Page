@@ -4,6 +4,13 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-bottom: 1px solid #e9e8e8;
+  z-index: 100;
 }
 
 .header-left {
@@ -81,7 +88,24 @@ header {
   height: 24px;
 }
 
-.account-menu-icon{
+.notification-menu {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: -4px;
+  right: -5px;
+  background-color: #c80000;
+  color: #fff;
+  border-radius: 20px;
+  padding: 2px 6px;
+}
+.notification-count p {
+  font-size: 11px;
+}
+
+.account-menu-icon {
   height: 32px;
   border-radius: 16px;
 }
